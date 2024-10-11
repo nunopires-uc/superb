@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditarAtributos"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/gradient_cor_de_rosa">
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="32dp"
+        android:textColor="@color/black"
+        android:text="Acerca de"
+        android:gravity="center">
+    </TextView>
+
+    <TextView
+        android:textSize="24sp"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Desesenvolvido por: Nuno Pires"
+        />
+    <TextView
+        android:textSize="24sp"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Número: 44240"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_marginTop="16dp"
+        android:text="Licença das Imagens: Creative Commons(Attribution 3.0 unported). Disponível em: https://freeicons.io/regular-life-icons/">
+    </TextView>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="55dp"
+        android:src="@drawable/bg_3_foreground"/>
+
+</LinearLayout>

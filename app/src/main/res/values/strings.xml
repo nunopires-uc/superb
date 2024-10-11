@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Superb</string>
+    <string-array name="saudacoes">
+        <item>Bom Dia,</item>
+        <item>Olá, </item>
+    </string-array>
+</resources>
